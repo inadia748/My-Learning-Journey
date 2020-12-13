@@ -1,0 +1,257 @@
+/* Advanced Selectors Part 1*/
+
+
+
+/* ul a {
+    background-color:rgba(255, 255,0,0.5)
+} */
+
+/* body a {
+    background-color: rgba(255, 255, 0, 0.5)
+} */
+
+/* li > a {
+    background-color: rgba(255,255,0,0.5)
+} */
+
+/* div > a {
+    background-color: rgba(255,255,0,0.5);
+} */
+
+/* ul li a {
+    background-color: rgba(255,255,0,0.5);
+} */
+
+/* body li a {
+    background-color: rgba(255,255,0,0.5);
+} */
+
+/* h1+p {
+ background-color: rgba(200, 255, 0, 0.5);
+} */
+
+/* h1~p {
+    background-color: rgba(200, 255, 0, 0.5);
+} */
+
+/* * {
+    background-color:rgba(255,244,0,0.5)
+} */
+
+
+
+
+/* Advanced Selector Part 2 */
+
+/* p {
+    font-family: Arial;
+    font-size: 20px;
+} */
+
+/* input[type = text] {
+    border: 5px solid yellow;
+} */
+
+/* input[type = checkbox] {
+    height: 50px;
+} */
+
+/* a[href ^= https] {
+    background-color:#ffff00;
+} */
+
+/* a[href *= site] {
+    background: #ffff0f;
+} */
+
+/* a[href $= org] {
+    background-color:green;
+    color:white;
+} */
+
+
+
+
+
+
+/* Pseudo-classes: Links */
+
+/* a:link {
+    color:#ff0000;
+}
+
+a:visited {
+    color: #ffff00;
+} */
+
+/* a {
+    display: block;
+    width: 200px;
+    height: 50px;
+    background-color:#4444ff;
+    color:white;
+    font-family: Arial;
+    font-size: 24px;
+    text-align: center;
+    padding: 10px;
+    box-sizing: border-box;
+    border-radius: 15px;
+    text-decoration: none;
+}
+
+a:hover {
+    background-color: violet;
+}
+
+a:active {
+    background-color: #22cc4d;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.8);
+} */
+
+
+
+
+
+/* Pseudo-class Part2: forms */
+
+/* input {
+    outline: none;
+    font-size: 18px;
+} */
+
+/* .inp-1:focus {
+    box-shadow: 0 0 10px rgba(0,0,0,0.8)
+} */
+
+/* checked is used for checkbox. */
+
+/* #inp-2:checked + label {
+    color: red;
+    background-color:yellow;
+} */
+
+/* valid and invalid are used for email forms */
+
+/* .inp-3:valid {
+    border:3px solid #00ff00;
+} */
+
+/* .inp-3:invalid {
+    border: 3px solid #ff0000;
+} */
+
+
+/* disabled and enabled works for 'Submit' button */
+
+/* .inp-4:enabled {
+    color:rgb(230, 38, 70);
+} */
+
+
+
+
+/* Pseudo-classes Part3: Positions */
+
+/* p { 
+    color:blue;
+}
+    
+    
+*/
+
+/* p:first-child {
+    color:red;
+} */
+
+/* p:last-child {
+    color: yellowgreen;
+} */
+
+/* in the parenthesis of nth-child, you can write 1, 2, 3,....., odd,even */
+
+/* p:nth-child(even) {
+    color: #bd26bd;
+} */
+
+/* Every second element or even element */
+
+/* p:nth-child(2n) {
+    color: #0a9538;
+} */
+
+/* Every odd element in another way */
+
+/* p:nth-child(2n-1) {
+    color: rgb(226, 145, 86);
+} */
+
+/* p:nth-child(3n-1) {
+    color: rgb(236, 85, 168);
+} */
+
+/* p:first-of-type {
+    background-color:#808080dc;
+}
+
+p:last-of-type {
+    background-color:yellow;
+}
+
+p:nth-of-type(2n) {
+    background-color: rgba(255,0,0,0.5);
+} */
+
+
+
+
+/* Pseudo-classes Part4: Other */
+
+li {
+    font-size: 20px;
+}
+
+/* li:first-child {
+    color:red;
+} */
+
+/* first list to be black and the rest to be red */
+
+/* li {
+    color: red;
+}
+
+li:first-child {
+    color:black;
+} */
+
+/* The above code can be written in shorter way */
+
+/* li:not(:first-child) {
+    color:red;
+} */
+
+/* li:hover {
+    color: #62e262;
+} */
+
+/* li:not(:hover) {
+    color:rgb(96, 197, 96);
+} */
+
+/* li:empty{
+    height: 20px;
+    background-color:yellow;
+} */
+
+/* target */
+p {
+    font-size: 20px;
+}
+
+*:target {
+    background-color:yellow;
+}
+
+
+
+

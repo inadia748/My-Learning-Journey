@@ -1,0 +1,49 @@
+In Advanced CSS, I am going to learn about selectors, pseudo-classes and pseudo-elements.
+
+pseudo-classes works with links, forms and positions.
+links in :link, :hover, :active, :visited.
+
+forms in :form, :checked, :valid, :invalid, :enabled, :disabled.
+position in :first-child, :last-child, nth-child(), :first-of-type, :last-of-type, :nth-of-type()
+
+other in :not(), :empty(), :target().
+
+
+pseudo-elements works with
+::before
+::after
+::first-line
+::first-letter
+
+
+tags
+classes
+invalid
+x>y is immediate child
+
+
+=  ---> the exact value
+input[type = text] {
+    ----
+    ----
+}
+
+^= ------> begins with
+a[href ^= https] {
+    ------
+    ------
+}
+
+$= ------> ends with
+a[href $= org] {
+    ......
+    .....
+}
+
+*= ------> has the value anywhere.
+a[href *= site] {
+    ......
+}
+
+
+
