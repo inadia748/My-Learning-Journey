@@ -1,0 +1,58 @@
+Emmet Shortcuts to do shortcuts.
+
+
+1.  Press '!' in vscode, press enter, it will give you the structure of the code.
+
+2.  for putting class in an element. example: p.red-text, p.red-text .italic etc
+
+3. for putting id in an element. example:- ul#list
+
+4. for putting id and class in an element. example:- ul#list.unordered
+
+5. lorem20, lorem200 etc
+
+6. nav>ul>(li>a>lorem1)*5
+
+7. nav>ul>(li>a{item})*5
+
+8.nav>ul>(li>a{item $})*5
+
+9. nav>ul>(li>a{item $$})*5
+
+10. nav>ul>(li.item-$>a{item $})*5
+
+
+5. input[type=range]
+
+6. div with a p tag inside. div>p,  div.block > p.blue,  div>p.red+p.blue,  div>(p.red>a)+p.blue
+
+
+7. ul>li*10
+
+8. ul>(li>a)*10
+
+9. header + main + footer
+
+10. header + (main > article * 2) + footer
+
+
+
+
+
+CSS
+
+
+1.padding-top:50px is pt50
+2.padding:50 is pt50
+3.padding-bottom is pb50
+4.padding-right is pr50
+5.padding-left is pl50
+
+
+1.margin:50px is m50
+2.margin-left:50px is ml50
+3.margin-right:50px is mr50
+4.margin-top:50px is mp50
+5.margin-bottom:50px is mb50
+
+1.w50 is width:50

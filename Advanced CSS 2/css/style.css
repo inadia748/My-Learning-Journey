@@ -1,0 +1,134 @@
+/* Pseudo Elements */
+/* 4 main pseudo elements are
+::before,::after,::first-letter,:::first-line */
+
+/* p::before {
+    content: 'Start ';
+    color: orange;
+    font-size: 20px;
+    text-decoration: underline;
+    display: block;
+    width: 100px;
+    height: 50px;
+    background:yellow;
+}
+
+P::after {
+    content:" End";
+    font-weight: bold;
+    color: aqua;
+    display: block;
+    width: 100%;
+    height: 1px;
+    border-top: 5px solid #ccc;
+    margin-top: 15px;
+
+}
+
+p::first-line {
+    color: coral;
+} */
+
+/* p::first-letter {
+    color:blue;
+} */
+
+
+
+
+
+
+/* Transform */
+/* Transform has 6 types: rotate, scale, translate, skey, rotateX, rotateY */
+
+
+/* .block { */
+    /* width:200px;
+    height:200px;
+    background-color: yellow;
+    border: 10px solid grey;
+    margin: 100px 0 0 200px;
+    font-size: 26px;
+    font-family: Arial;
+    text-align: center;
+    padding-top: 60px;
+    box-sizing:border-box; */
+    
+    /* transform can increase or decrease the size of the width or height of an object */
+    /* transform: rotate(130deg); */
+    /* transform:scale(1); */
+    /* transform:scale(1,1.5)   , In the scale parenthesis, 1 is the width, 1.5 is the height */
+
+
+    /* translate can move the object either horizontally of vertically */
+    /* (0,0) in the parenthesis means it will not move, it stays in its original position */
+    /* transform:translate(0,0); */
+    /* (30,30) means it will move 30px horizontally and 30px vertically */
+    /* transform:translate(-200px, 50px); */
+
+
+    /* skew will tilt the image vertically and horizontally. */
+    /* transform: skew(20deg,0);
+    transform: skew(-90deg,0);
+    transform:skew(-20deg,0) */
+
+
+    /* transform:rotateY(180deg); */
+    /* transform: rotateX(180deg); */
+
+/* } */
+
+
+/* Transform is used mostly for hover */
+
+/* .block:hover{
+    transform: rotateX(180deg);
+} */
+
+
+/* .block2 {
+    width: 200px;
+    height:200px;
+    background-color:red;
+} */
+
+
+
+
+
+
+
+
+/* Transition */
+
+/* Transition property has 4 values:  transition-property, transition-duration, transition-delay, transition-timing-functions .   It has :hover, :focus, :active. */
+
+/* How long will the change will be taking place, it is transition duration. */
+/* Transition property is quantifiable, it is width, height, margin, .....etc. */
+/* Transition delay is the delay before the animations begins. */
+/* Transition-timing-function describes how the property is going to be changing. */
+
+/* .block { */
+    /* width: 200px;
+    height: 200px;
+    background-color: yellow;
+    border: 9px solid grey;
+    margin: 100px 0 0 200px;
+    font-size: 30px;
+    text-align: center;
+    padding-top:50px;
+    box-sizing: border-box; */
+    /* transition: width 2s linear,
+    height 2s linear; */
+    /* transition: all 2s linear; */
+    /* transition: transform 2s linear; */
+    /* transition: transform 2s 2s linear ; */
+/* } */
+
+/* .block:hover{ */
+    /* width:400px;
+    height:400px; */
+    /* transform: rotateY(180deg); */
+/* } */
+
+
