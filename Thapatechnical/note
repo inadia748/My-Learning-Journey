@@ -1,0 +1,273 @@
+Why Javascript?
+
+Javascript improves the user experience of the web page by converting it from static page into an interactive one. In other words, Javascript adds behaviour to the web page.
+
+
+
+How Website Front-End (Client-Side) works:
+
+HTML stands for Hyper Text Markup Language
+
+HTML is the standard markup language for creating Web page.
+
+HTML describes the structure of a Web page.
+
+
+
+CSS/CSS3
+
+CSS stands for Cascading Style Sheets.
+
+CSS describes how HTML element are to be displayed on screen, paper, or in other media.
+
+With CSS, you can control the color, font , the size of the text etc.
+
+
+
+Javascript
+
+Javascript is a text-based programming language used both on the client-side and server-side that allows you to make web pages interactive.
+
+Javascript improves the user experience of the web page by converting it form a static page into an interactive one.
+
+
+
+
+
+Naming Variable: Rules and Best Practices.
+
+1. The first character must be a letter or an underscore(_) or an dollar($). You can't use a number as the first character. example: var 1myName = 'Thapa';   it is invalid.
+                    var _1my__Name = "thapa"; it is valid.
+                    var $myName = 'thapa'; it is valid
+                    var myName% = 'thapa'; it is invalid.
+
+
+2. The rest of the variable name can include any letter, any number, or the underscore. Can 't use any other characters, including spaces.
+example: var _myAge = 26,   it is valid.
+        var _my Age = 25 ; it is invalid.
+
+3. Variable name are case sensitive.
+
+4. You cannot use javascript reserved word as a variable name.
+
+
+
+
+
+
+
+Data Types In Javascript:
+
+Six Data Types that are primitives:
+
+undefined: typeof instance === 'undefined'
+Boolean: typeof instance === 'boolean'
+Number: typeof instance === 'number'
+String: typeof instance === 'string'
+BigInt: typeof instance === 'bigint'
+Symbol: type of instance === 'symbol'
+
+
+
+
+
+
+
+Expressions And Operators.
+
+1. Assignment Operators
+2. Arithmetic Operators
+3. Comparison Operators
+4. Logical Operators
+5. String Operators
+6. Conditional (ternary) Operators
+
+
+
+
+
+
+Control Statements and Loops
+
+1. If Else
+2. Switch Statements
+3. While Loops
+4. Do-while Loops
+5. For Loops
+6. For in Loops
+7. For of Loops
+8. Conditional (ternary) operator.
+
+
+
+
+
+
+
+
+
+
+
+1. Function Defination
+2. Calling a Function
+3. Function Parameter
+4. Function Arguments
+5. Function Expressions
+6. Return Keyword
+7. Anonymous Function
+
+
+
+
+
+
+Strings in Javascript
+1. Escape character
+2. Finding a string in a string
+3. Searching for a string in a string
+4. Extracting string Practices
+5. Replacing string content
+6. Extracting string characters
+7. other useful methods
+
+
+
+
+
+
+
+
+
+Date and Time in Javascript
+
+Date Methods (get and set)
+Time Methods (get and set)
+
+
+
+
+
+
+
+DOM, BOM and Window Object
+
+-Window vs Document
+- DOM vs BOM
+- DOM navigation
+- Searching and getting Elements Reference
+
+
+
+Differences between Window and Document in Javascript
+
+1. Window is the main container or we can say the  'global object' and any operations related to entire browser window can be a part of window object, whereas 'DOM' is the child of window object.
+
+2. All the members like 'objects', 'methods' or 'properties', if they are the aprt of window object then we do not refer the window object ,  whereas , In the 'DOM' we need to refer to the document, if we want to use the document object, methods or properties.
+
+3. Window has methods, properties and object. Example: setTimeout() or setInterval() are the methods, where as Document is the object of the Window and it also has a  screen object with properties describing the phsical display.  Document is just the object of the global object that is Window, which deal with the document, the HTML elements themselves.
+
+BOM is used for navigator, screen, locatioon, frames, history, XML Http Request. BOM is browser object model.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Math Object in Javascript
+
+
+
+
+
+
+
+Events in Javascript:
+1. 4 ways of writing Events in Javascript.
+2. What is Event Object?
+3. MouseEvent in Javascript
+4. KeyboardEvents in Javascript
+5. InputEvents in Javascript.
+
+
+
+
+
+
+
+
+
+TimeBasedEvents in Javascript
+1. setTimeout()
+2. setInterval()
+3. clearTimeout()
+4. clearInterval()
+
+
+
+
+
+
+
+
+
+
+Advanced Javascript
+
+1. Event Propagation (Event Bubbling and Event Capturing)
+2. Higher Order Function
+3. Callback Function
+4. Function Currying ( We will see after Async JS section)
+5. CallBack Hell
+6. AJAX call using XMLHttprequest
+7. BONUS Section JSON
+8. Fetch API
+9. Promises
+10. Async-Await
+11. Error Handling in JS
+
+
+
+
+
+
+
+
+
+
+
+OOPs in Javascript: check his other channels for more details in Javascript OOPs
+
+
+
+
+
+
+
+
+
+
+
+
+Asynchronous Javascript:
+
+
+1.  Hoisting in Javascript.
+2. Scope Chain.
+3. Lexical scoping in Javascript.
+4. Use strict mode.
+5. This keyword.
+6. Closures in Javascript
+7. What is Asynchronous Javascript
+8. What is Event Loop?
+
+
+Look up Javascript API
+

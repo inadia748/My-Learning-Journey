@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .card-footer-social p {
+            letter-spacing: 1px;
+        }
+        .card: hover {
+            transform: scale(0.9, 0.9);
+            box-shadow: 5px 5px 30px 15px rgba(0,0,0,0.25), -5px -5px 30px 15px rgba(0,0,0, 0.22);
+        }
+    </style>
+</head>
+<body>
+    
+    <div id="container">
+
+    </div>
+
+    <script>
+
+        // XMLHttpRequest (XHR) objects are used to interact with servers. You can retrieve data from a URL without having to do a full page refresh. This enables a Web page to updata just a part of a page without disrupting what the user is doing.
+
+        // Ajax, Asynchronous Javascript and XML, is a programming practice of building complex, dynamic webpages using a technology known as XMLhttpRequest.
+        const container = document.querySelector('#container');
+
+        const request = new XMLHttpRequest();
+
+        request.open('');
+        request.send();
+
+        // to get the response
+        request.addEventListener('load', function(){
+           = this.responseText
+        })
+    </script>
+
+</body>
+</html>
